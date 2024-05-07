@@ -1,0 +1,395 @@
+body {
+	font-family: var(--artdeco-reset-typography-font-family-sans);
+}
+
+/*  .icon-1 {
+	width: 25px;
+	position: absolute;
+	top: 0px;
+	left: 156px;
+} */
+
+.h-left {
+	float: left;
+	margin-block: 11px;
+}
+.h-left h3 {
+	font-size: x-large;
+	font-weight: 600;
+	color: #0a66c2; 
+	cursor: pointer;
+}
+.in {
+	background-color: #0a66c2;
+	color: white;
+	padding: 0 3px;
+	border-radius: 3px;
+}
+.sign {
+	float: right;
+    	padding: 11px 22px;
+    	font-weight: bold;
+   	margin-left: 10px;
+	
+}
+.sign:hover {
+	background-color: rgba(4, 118, 217, 0.1);
+}
+.join {
+	float: right;
+    	padding: 11px 22px;
+    	font-weight: bold;
+    	margin-left: 10px;
+}
+.join:hover {
+	background-color: rgba(186, 183, 182, 0.2);
+}
+.get-icon1 {
+	width: 30px;
+	float: right;
+    	margin-left: 20px;
+	border: 1px solid #a3a2a2;
+	border-style: none solid; 
+	opacity: 0.6;	
+	margin-block: 11px;	
+}
+.get-icon1:hover {
+	opacity: 1;
+}
+.h-icon2 {
+	width: 30px;
+	float: right;
+    	margin-inline: 20px;
+	opacity: 0.6;
+	margin-block: 11px;
+}
+.h-icon2:hover {
+	opacity: 1;
+}
+.main-heading {
+	font-size: 56px;
+	font-weight: 200;
+	font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+	color: #f02424;
+}
+
+.l-label {
+	color: rgba(0, 0, 0, 0.75);
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+.text1 {
+	padding: 14px;
+	width: 390px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+    	border: 1px solid black;
+}
+.text1:hover {
+	border: 2px solid black;
+}
+.show-lock {
+	position: relative;
+}
+.show-1 {
+	color: #34a1c2;
+	font-family: Segoe UI Semibold;
+	font-size: 16px;
+    	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	cursor: pointer;
+	position: absolute;
+	left: 320px;
+	text-decoration: none;
+}
+.show-1:hover {
+	text-decoration: none;
+}
+.forgot {
+	font-family: Segoe UI Semibold;
+	font-size: 16px;
+    	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+.forgot a {
+ 	color: #34a1c2;
+	text-decoration: none;
+}
+.forgot a:hover {
+	text-decoration: underline;
+	color: #004b7c;
+}
+.sign2 {
+	width: 390px;
+	color: #004b7c;
+	font-family: Segoe UI Semibold;
+	font-size: 16px;
+    	font-weight: 600;	
+	padding-block: 12px;
+	margin: 20px 0;
+}
+.sign2:hover {
+	background-color: #03549c;
+}
+.hrdivider {
+  	position: relative;
+  	margin-bottom: 17px;
+  	width: 390px;
+  	text-align: center;
+	opacity: 1;
+	margin-top: 19px;
+}
+
+.hrdivider p {
+  	position: absolute;
+  	top: -13px;
+  	background: #fff;
+  	padding: 0 18px;
+  	font-size: 14px;
+	left: 172px;
+	font-family: Segoe UI Semibold;
+	color: grey;
+}
+.policy {
+	font-family: Segoe UI;
+	font-size: 12px;
+	margin-top: 35px;
+}
+.policy a {
+	text-decoration: none;
+	font-family: Segoe UI Semibold;
+	color: #34a1c2;
+}
+.policy a:hover {
+	text-decoration: underline;
+}
+.lb-1 {
+	width: 370px;
+	color: rgba(10, 10, 10, 0.7);
+	font-family: Segoe UI Semibold;
+	font-size: 14px;
+    	font-weight: 400;	
+	padding-block: 10px;	
+	border: 1px solid black;
+ 	margin-left: 10px;
+}
+.lb-1:hover {
+	border: 2px solid #787678;
+	background-color: rgba(141, 144, 148, 0.1)
+}
+.icon {
+	position: relative;
+}
+.google {
+	position: absolute;
+	width: 19px;
+	top: 36px;
+	left: 97px;
+}
+.lb-2 {
+	width: 390px;
+	color: rgba(10, 10, 10, 0.7);
+	font-family: Segoe UI Semibold;
+	font-size: 16px;
+    	font-weight: 600;	
+	padding-block: 12px;
+	margin: 20px 0;	
+	border: 1px solid black;
+}
+.lb-2:hover {
+	background-color: rgba(141, 144, 148, 0.1)	
+}
+.picture {
+	margin-block: 100px;
+	width: 500px;
+}
+.l-section1 {
+	font-family: Segoe UI Light;
+}
+.l-section1 h1 {
+	font-size: 50px;
+}
+.l-section1 p {
+	font-size: larger;
+}
+/*.r-section1 {
+	margin-top: 20px;
+	vertical-align: middle;
+}*/
+.r-button {
+    	padding: 14px 24px;
+    	margin: 5px 2px;
+	color: rgba(0, 0, 0, 0.75);
+	font-family: Segoe UI Semibold;
+	float: left;
+}
+.r-button:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.last:hover {
+	background-color: rgba(10, 92, 201, 0.1);
+}
+.h-section2 {
+	color: rgba(0, 0, 0, 0.75);
+	font-size: 16px;
+	font-family: Segoe UI Semibold;
+	font-weight: 200;
+}
+.middle {
+	color: rgb(240, 36, 36, 0.9);
+	background-color: rgba(240, 36, 36, 0.1);
+	color: rgb(178, 64, 32);
+	display: block;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	height: 250px
+	
+}
+.jobseek {
+	padding-right: 20px;
+}
+.j-button {
+	height: auto;
+}
+.mid-last {
+	background-color: rgba(230, 161, 115, 0.05);
+	padding-block: 120px;
+}
+.carousel-content {
+	padding-left: 110px;
+}
+
+.carousel-content h1 {
+	color: rgb(178, 64, 32);
+	font-family: Segoe UI;
+	font-size: 40px;
+	font-weight: 400;
+}
+.carousel-content p {
+	font-size: 32px;
+	font-weight: 200;
+	font-family: Segoe UI Light;
+}
+.last-img p {
+	font-size: 48px;
+	font-weight: 200;
+	font-family: Segoe UI Light;
+	padding-right: 60px;
+}
+.drop {
+	font-family: Segoe UI;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 18px 24px;
+}
+.bg-img {
+	position: relative;
+}
+.img-cont {
+	font-size: 40px;
+	font-weight: 200;
+	font-family: Segoe UI Light;
+	position: absolute;
+	padding-inline: 10%;
+	top: 10%;
+}
+.img-cont button {
+	font-family: Segoe UI Semibold;
+	font-size: 16px;
+	font-weight: 600;
+}
+.footer {
+	background-color: rgba(130, 128, 124, 0.2)
+}
+.footer-1 h3 {
+	font-size: x-large;
+	font-weight: 600;
+	color: #0a66c2; 
+	cursor: default;
+}
+.in {
+	background-color: #0a66c2;
+	color: white;
+	padding: 0 3px;
+	border-radius: 3px;
+}
+.footer-col p {
+	font-size: 14px;
+	font-weight: 600;
+	font-family: Segoe UI Semibold;
+	margin-bottom: 7px;
+	color: rgba(0, 0, 0, 0.9);
+}
+.footer-col a {
+	display: block;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 11px;
+	font-weight: 600;
+	font-family: Segoe UI Semibold;
+	text-decoration: none;
+	margin: 2px 0;
+}
+.footer-col a:hover {
+	color: #34a1c2;
+	text-decoration: underline;
+}
+.footer-2 {
+	display: inline;
+}
+.footer-2 h3 {
+	font-family:  ;
+	font-size: smaller;
+	font-weight: 600;
+	color: black; 
+	float: left;
+	cursor: default;
+}
+.in-2 {
+	background-color: black;
+	color: white;
+	padding: 0 3px;
+	border-radius: 3px;
+}
+.footer-2 p {
+	float: left;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 10px;
+	font-family:Segoe UI Semibold;
+	font-weight: 600;
+	padding-inline: 7px;
+}
+.footer-2 a {
+	float: left;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 10px;
+	font-family:Segoe UI Semibold;
+	font-weight: 600;
+	padding-inline: 7px;
+}
+.footer-2 a:hover {
+	text-decoration: underline;
+	color: rgb(4, 117, 204);
+}
+.video {
+	padding: 90px 0;
+}
+.video h1 {
+	color: rgb(178, 64, 32);
+	font-family: Segoe UI;
+	font-size: 40px;
+	font-weight: 400;
+}
+.video p {
+	font-size: 32px;
+	font-weight: 200;
+	font-family: Segoe UI Light;
+	color: black;
+}
