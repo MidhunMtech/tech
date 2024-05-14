@@ -5,10 +5,10 @@
 		<title>Form</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="stylesheet.css" type="text/css">
+		<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script defer src="js.js" type="text/javascript"></script>
+		<script defer src="js/script.js" type="text/javascript"></script>
 
 	</head>
 	<body style="background-color: #243f2f;">
@@ -19,34 +19,34 @@
 					<h1 class="text-center py-1">Form</h1>
 					<form name="form" onsubmit="return validate()" action="welcome_page.htm" class="pb-3"> <!--message.htm-->
 						<input id="user" class="input" type="text" placeholder="Username"><br>
-						<label id="l-user" class="label" style="visibility: hidden;">Invalid Username!</label><br>
+						<label id="l-user" class="label" >Invalid Username!</label><br>
 
 						<input id="mail" class="input" type="text" placeholder="Email"><br>
-						<label id="l-mail" class="label"></label><br>
+						<label id="l-mail" class="label1"></label><br>
 
 						<input id="pass" class="input" type="password" placeholder="Password"><br>
-						<label id="l-pass" class="label"></label><br>
+						<label id="l-pass" class="label1"></label><br>
 	
 						<input id="number" class="input" type="number" placeholder="Age"><br>
-						<label id="l-number" class="label"></label><br>
+						<label id="l-number" class="label1"></label><br>
 
 						<input id="file" class="input1" type="file"><br>
-						<label id="l-file" class="label"></label><br>
+						<label id="l-file" class="label1"></label><br>
 
 						<input id="date" class="input" type="date"><br>
-						<label id="l-date" class="label"></label><br>
+						<label id="l-date" class="label1"></label><br>
 
 						<input id="eng" class="input1" type="checkbox" name="language" value="English">
 						<label for="eng" class="labelclass text-black">English</label><br>
 						<input id="french" class="input1" type="checkbox" name="language" value="French">
 						<label for="french" class="labelclass text-black">French</label><br>
-						<label id="l-lang" class="label" style="visibility: hidden;">Must Select Language!</label><br>
+						<label id="l-lang" class="label">Must Select Language!</label><br>
 	
 						<input id="check" class="input1" type="radio" name="agreement" value="Yes">
 						<label for="check" class="labelclass text-black">Agreed</label><br>
 						<input id="check1" class="input1" type="radio" name="agreement" value="No">
 						<label for="check1" class="labelclass text-black">Not Agreed</label><br>
-						<label id="l-check" class="label" style="visibility: hidden;">Must Select One!</label><br>
+						<label id="l-check" class="label">Must Select One!</label><br>
 	
 						<button type="submit" class="text-center submit">Submit</button>
 					</form>
