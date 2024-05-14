@@ -1,0 +1,131 @@
+* {
+	padding: 0;
+	margin: 0;
+	border-sizing: border-boxing;
+	font-family: cursive;
+}
+.container-fluid {
+	background: rgb(191, 191, 191);
+	background: linear-gradient(166deg, rgba(163,163,167,1) 34%, rgba(75,78,75,1) 61%);
+	width: 100%;
+	height: 100vh;
+	padding: 20px 50px;
+}
+.Todo {
+	width: 100%;
+	max-width: 550px;
+	background: rgb(235, 235, 235);
+	padding: 20px 20px;
+	margin: 20px auto;
+	border-radius: 25px;
+}
+.Todo h1 {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 27px;
+}
+.TodoInput {
+	background: rgba(187, 188, 196,0.5);
+	border-radius: 25px;
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 20px 0 20px;
+}
+.TodoInput input {
+	outline: none;
+	background: none;
+	flex: 1;
+	padding: 10px 30px;
+	border: none;
+}
+.TodoInput button {
+	outline: none;
+	background: rgba(187, 188, 196,1);
+	padding: 10px 25px;
+	border: none;
+	border-top-right-radius: 25px;
+    	border-bottom-right-radius: 25px;
+	font-weight: bold;
+}
+.TodoInput button:hover {
+	color: white;
+}
+label {
+	font-size: 14px;
+	color: red;
+	padding: 0;
+	margin: 0 0 0 50px;
+}
+#listElement {
+	margin: 0px 20px 0 0;
+	height: 350px;
+	overflow-y: auto;
+	padding-right: 5px;
+}
+ul li {
+	list-style: none;
+	font-size: 17px;
+	padding: 10px 40px;
+	font-weight: bolder;
+	border-radius: 25px;
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+	margin: 5px 0;
+}
+ul li.checked {
+	background: rgba(41, 196, 14, 0.3);
+	color: #555;
+	text-decoration: line-through;	
+}
+ul li::before {
+	content: '';
+	background-image: url(../images/unchecked.png);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 13px;
+	left: 10px;
+}
+ul li.checked::before {
+	content: '';
+	background-image: url(../images/checked.png);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 13px;
+	left: 10px;
+}
+ul li span {
+	position: absolute;
+	right: 12px;
+	top: 8px;
+	text-align: center;
+	color: #555;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+ul li span:hover {
+	background: rgba(75,78,75,0.3);
+}
+* {
+    	scrollbar-width: auto;
+    	scrollbar-margin: 5px;
+}
+*::-webkit-scrollbar {
+    	width: 8px;
+}
+*::-webkit-scrollbar-track {
+    	border-radius: 20px;
+}
+*::-webkit-scrollbar-thumb {
+    	border-radius: 30px;
+	background-color: rgba(187, 188, 196,0.6);
+    	border: none;
+}
