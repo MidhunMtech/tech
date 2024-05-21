@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	font-size: 18px;
+	font-family: arial;
+}
+.container {
+	max-width: 800px;
+	margin-top: 40px;
+	margin-inline: auto;
+}
+.accordion_box {
+	padding: 0 15px 1px;
+	background-color: #e1e1e1;
+    	color: #332e2e;
+    	border: 1px solid grey;
+	margin-top: 10px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.accordion_box.active {
+	background: #fff;
+}
+.acc_title {
+	padding: 15px 40px 15px 0;
+	margin: 0;
+    	font-size: 24px;
+    	position: relative;
+}
+.acc_title i {
+	position: absolute;
+	right: 11px;
+    	top: 14px;
+    	font-size: 24px;
+}
+.acc_content {
+	display: none;
+}
+.acc_content p {
+	line-height: 1.6;
+}
